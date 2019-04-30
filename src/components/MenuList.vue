@@ -173,7 +173,7 @@ export default {
     },
     addToCart() {
       if (this.addItemsToCart.length == 0) {
-        this.$store.dispatch("addToCart", this.newItem);
+        this.$store.dispatch("addToCart", [this.newItem]);
         console.log("newitem",this.newItem);
         // this.arr.push(this.newItem);
       } else {
@@ -183,7 +183,7 @@ export default {
           }
         });
         if (!this.isAvailable) {
-          this.$store.dispatch("addToCart", this.newItem);
+          this.$store.dispatch("addToCart",[this.newItem]);
             console.log("newItem2", this.newItem);
           //this.arr.push(this.newItem);
         }
@@ -217,21 +217,5 @@ export default {
       }
     }
   }
-  // getters:{
-  //   // cartTotal() {
-  //   //   let order = state.cartItems;
-  //   //   order.forEach(element => {
-  //   //     state.orderTotal += element.price;
-  //   //   });
-  //   //   return state.orderTotal;
-  //   // },
-  //   cartTotal() {
-  //     let order = this.addItemsToCart;
-  //     order.forEach(element => {
-  //       this.orderTotal += element.price;
-  //     });
-  //     return this.orderTotal;
-  //   }
-  // }
 };
 </script>
