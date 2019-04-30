@@ -1,0 +1,50 @@
+{
+    "headers": [
+        {
+            "text": "No.",
+            "align": "left",
+            " sortable": true,
+            "value": "no"
+        },
+        {
+            "text": "Items",
+            "value": "item"
+        },
+        {
+            "text": "Price(in Rs.)",
+            "value": "price"
+        }
+    ],
+    "items": [
+        {
+            "no": 1,
+            "item": " Coffee ",
+            "price": 20
+        },
+        {
+            "no": 2,
+            "item": " Tea ",
+            "price": 10
+        },
+        {
+            "no": 3,
+            "item": " Dosa ",
+            "price": 100
+        },
+        {
+            "no": 4,
+            "item": " Pizza ",
+            "price": 200
+        },
+        {
+            "no": 5,
+            "item": " Noodles ",
+            "price": 50
+        },
+        {
+            "no": 6,
+            "item": " Parathas ",
+            "price": 150
+        }
+    ]
+}

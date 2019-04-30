@@ -1,0 +1,19 @@
+{
+    "user": [
+        {
+            "email": "renuka@gmail.com",
+            "password": "Renuka@12",
+            "type": "staff"
+        },
+        {
+            "email": "shreya@gmail.com",
+            "password": "Shreya@12",
+            "type": "customer"
+        },
+        {
+            "email": "gayatri@gmail.com",
+            "password": "Gayatri@12",
+            "type": "staff"
+        }
+    ]
+}
