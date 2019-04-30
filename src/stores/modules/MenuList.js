@@ -26,7 +26,7 @@ export const loadItems = {
         cartTotal: state => {
             let order = 0;
             state.cartItems.forEach(element => {
-                order = order + element.price;
+                order = order + element.price
             });
             return order;
         },
